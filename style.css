@@ -1,0 +1,50 @@
+body{
+margin:0;
+font-family:Helvetica, Arial, sans-serif;
+}
+
+/* PAGE LANDING */
+
+.landing{
+height:100vh;
+background-image:url("images/sac.jpg");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+/* effet overlay léger */
+
+.overlay{
+text-align:center;
+background:rgba(255,255,255,0.6);
+padding:60px 80px;
+}
+
+/* titre */
+
+h1{
+font-size:60px;
+letter-spacing:8px;
+color:#2e3d2f;
+margin-bottom:40px;
+}
+
+/* bouton */
+
+.enter{
+text-decoration:none;
+padding:14px 40px;
+border:1px solid #2e3d2f;
+color:#2e3d2f;
+font-size:14px;
+letter-spacing:2px;
+transition:0.3s;
+}
+
+.enter:hover{
+background:#2e3d2f;
+color:white;
+}
